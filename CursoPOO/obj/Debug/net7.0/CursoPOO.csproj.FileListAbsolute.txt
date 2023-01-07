@@ -1,0 +1,15 @@
+C:\DIO\POO\CursoPOO\bin\Debug\net7.0\CursoPOO.exe
+C:\DIO\POO\CursoPOO\bin\Debug\net7.0\CursoPOO.deps.json
+C:\DIO\POO\CursoPOO\bin\Debug\net7.0\CursoPOO.runtimeconfig.json
+C:\DIO\POO\CursoPOO\bin\Debug\net7.0\CursoPOO.dll
+C:\DIO\POO\CursoPOO\bin\Debug\net7.0\CursoPOO.pdb
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.csproj.AssemblyReference.cache
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.AssemblyInfoInputs.cache
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.AssemblyInfo.cs
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.csproj.CoreCompileInputs.cache
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.dll
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\refint\CursoPOO.dll
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.pdb
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\CursoPOO.genruntimeconfig.cache
+C:\DIO\POO\CursoPOO\obj\Debug\net7.0\ref\CursoPOO.dll

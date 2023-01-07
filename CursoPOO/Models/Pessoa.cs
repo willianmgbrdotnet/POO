@@ -10,7 +10,7 @@ namespace CursoPOO.Models
 
         public void Apresentar()
         {
-            System.Console.WriteLine($"Meu nome é {Nome} e tenho {Idade} anos");
+            Console.WriteLine($"Meu nome é {Nome} e tenho {Idade} anos");
 
         }
 
