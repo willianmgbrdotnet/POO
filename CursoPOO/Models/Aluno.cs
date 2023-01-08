@@ -4,6 +4,12 @@ namespace CursoPOO.Models
     {
         public int nota { get; set; }
 
+        //Polimorfismo override
+        public override void Apresentar()
+        {
+            Console.WriteLine($"Meu nome é {Nome} e minha média é {nota}");
+        }
+
 
     }
 }

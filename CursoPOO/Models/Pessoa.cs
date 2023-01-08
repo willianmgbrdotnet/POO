@@ -8,7 +8,8 @@ namespace CursoPOO.Models
            
         public int Idade {get; set;}
 
-        public void Apresentar()
+        //change to override metod 
+        public virtual void Apresentar()
         {
             Console.WriteLine($"Meu nome é {Nome} e tenho {Idade} anos");
 

@@ -7,15 +7,17 @@ namespace CursoPOO
     {
         static void Main(string[] args)
         {
-            //Inheritance Herança
+            //Polimorfismo Late binding
             Aluno a1 = new Aluno();
             a1.Idade = 19;
             a1.Nome = "Andre";
+            a1.nota = 9;
             a1.Apresentar();
 
             Professor pr1 = new Professor();
             pr1.Nome = "Robert";
             pr1.Idade = 49;
+            pr1.salario = 9900.00;
             pr1.Apresentar();
 
             
