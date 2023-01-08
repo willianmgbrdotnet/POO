@@ -12,7 +12,8 @@ namespace CursoPOO
             Console.WriteLine($"Area igual a {r1.Area()} metros quadrados");
 
             Retangulo r2 = new Retangulo();
-            r2.DefinirMedidas(-5, 15);
+            System.Console.WriteLine("Defina comprimento e largura");
+            r2.DefinirMedidas(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
             Console.WriteLine($"Area igual a {r2.Area()} metros quadrados");
 
 
