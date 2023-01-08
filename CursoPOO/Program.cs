@@ -7,7 +7,17 @@ namespace CursoPOO
     {
         static void Main(string[] args)
         {
-            
+            //Inheritance Herança
+            Aluno a1 = new Aluno();
+            a1.Idade = 19;
+            a1.Nome = "Andre";
+            a1.Apresentar();
+
+            Professor pr1 = new Professor();
+            pr1.Nome = "Robert";
+            pr1.Idade = 49;
+            pr1.Apresentar();
+
             
             //Encapsulamento
             /*
