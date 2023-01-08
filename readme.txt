@@ -5,3 +5,4 @@ medidas retangulo definidas pelo usuario
 Herança Classes filhas
 Codificando com herança
 Polimorfismo Late binding
+Early binding Polimorfismo

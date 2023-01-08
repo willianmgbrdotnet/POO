@@ -7,7 +7,14 @@ namespace CursoPOO
     {
         static void Main(string[] args)
         {
+            //Early binding Polimorfismo
+            Calculadora calc = new Calculadora();
+            System.Console.WriteLine($"Resultado da primeira soma é {calc.somar(20, 58)}");
+            System.Console.WriteLine($"Resultado da primeira soma é {calc.somar(15, 10, 20)}");
+
+
             //Polimorfismo Late binding
+            /*
             Aluno a1 = new Aluno();
             a1.Idade = 19;
             a1.Nome = "Andre";
@@ -19,6 +26,7 @@ namespace CursoPOO
             pr1.Idade = 49;
             pr1.salario = 9900.00;
             pr1.Apresentar();
+            */
 
             
             //Encapsulamento
