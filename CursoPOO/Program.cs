@@ -8,11 +8,12 @@ namespace CursoPOO
         static void Main(string[] args)
         {
             Retangulo r1 = new Retangulo();
-
             r1.DefinirMedidas(30, 15);
-            r1.Area();
-
             Console.WriteLine($"Area igual a {r1.Area()} metros quadrados");
+
+            Retangulo r2 = new Retangulo();
+            r2.DefinirMedidas(-5, 15);
+            Console.WriteLine($"Area igual a {r2.Area()} metros quadrados");
 
 
             //Abstração
