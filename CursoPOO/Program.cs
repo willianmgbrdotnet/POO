@@ -7,6 +7,10 @@ namespace CursoPOO
     {
         static void Main(string[] args)
         {
+            
+            
+            //Encapsulamento
+            /*
             Retangulo r1 = new Retangulo();
             r1.DefinirMedidas(30, 15);
             Console.WriteLine($"Area igual a {r1.Area()} metros quadrados");
@@ -15,6 +19,7 @@ namespace CursoPOO
             System.Console.WriteLine("Defina comprimento e largura");
             r2.DefinirMedidas(double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()));
             Console.WriteLine($"Area igual a {r2.Area()} metros quadrados");
+            */
 
 
             //Abstração
