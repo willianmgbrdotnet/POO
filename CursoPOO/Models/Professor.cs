@@ -1,5 +1,6 @@
 namespace CursoPOO.Models
 {
+    //Inheritance subclass Professor
     public class Professor : Pessoa
     {
         public double salario { get; set; }        

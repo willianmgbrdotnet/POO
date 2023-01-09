@@ -1,5 +1,6 @@
 namespace CursoPOO.Models
 {
+    //Inheritance subclass Aluno
     public class Aluno : Pessoa
     {
         public int nota { get; set; }
