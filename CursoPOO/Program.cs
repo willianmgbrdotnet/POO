@@ -7,6 +7,18 @@ namespace CursoPOO
     {
         static void Main(string[] args)
         {
+            //Trying implement sealed method
+            Diretor dr = new Diretor();
+            dr.Nome = "Boss";
+            dr.salario = 10000;
+
+            /*error CS0239: "Diretor.Apresentar()": não é possível substituir o membro herdado "Professor
+.Apresentar()" porque ele é sealed [C:\DIO\POO\CursoPOO\CursoPOO.csproj]
+            dr.Apresentar();
+            */
+            dr.Apresentar();
+
+            /*
             //implementando abstract class
             Corrente c = new Corrente();
 
@@ -20,7 +32,7 @@ namespace CursoPOO
             System.Console.WriteLine("Quanto você gostaria de ter como limite da sua conta? Digite um valor");
             System.Console.ReadLine();
             System.Console.WriteLine("Procure o seu genente");
-
+            */
 
             /*
             //Early binding Polimorfismo

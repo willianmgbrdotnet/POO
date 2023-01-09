@@ -6,7 +6,7 @@ namespace CursoPOO.Models
         public double salario { get; set; }        
 
         //Polimorfismo override
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Meu nome é {Nome} e atualmente recebo {salario} por mês");
         }
