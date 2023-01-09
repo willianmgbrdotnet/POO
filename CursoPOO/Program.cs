@@ -3,15 +3,31 @@ using CursoPOO.Models;
 
 namespace CursoPOO
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            //implementando abstract class
+            Corrente c = new Corrente();
+
+            //setting Inherited members to object
+            System.Console.WriteLine("Quanto de dinheiro você quer depositar");
+            c.Depositar(double.Parse(Console.ReadLine()));
+
+            c.ExibirSaldo();
+
+            //User interactions
+            System.Console.WriteLine("Quanto você gostaria de ter como limite da sua conta? Digite um valor");
+            System.Console.ReadLine();
+            System.Console.WriteLine("Procure o seu genente");
+
+
+            /*
             //Early binding Polimorfismo
             Calculadora calc = new Calculadora();
             System.Console.WriteLine($"Resultado da primeira soma é {calc.somar(20, 58)}");
             System.Console.WriteLine($"Resultado da primeira soma é {calc.somar(15, 10, 20)}");
-
+            */
 
             //Polimorfismo Late binding
             /*
