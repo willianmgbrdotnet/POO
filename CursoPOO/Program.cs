@@ -1,4 +1,5 @@
 ﻿using System;
+using CursoPOO.Interfaces;
 using CursoPOO.Models;
 
 namespace CursoPOO
@@ -7,16 +8,27 @@ namespace CursoPOO
     {
         static void Main(string[] args)
         {
+            //Instanciando a interface ICalculadora através da classe Calculadora
+            //Uma vez que interface não pode ser instanciada, apenas implementada na classe
+            ICalculadora calc = new Calculadora();
+            
+            System.Console.WriteLine("Digite dois numeros para eu multiplicar pra você");
+            System.Console.WriteLine("O Produto é: " + calc.multiplicar(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine())));
+
+            /*
             //Trying implement sealed method
             Diretor dr = new Diretor();
             dr.Nome = "Boss";
             dr.salario = 10000;
 
+            dr.Apresentar();
+            */
+
+
             /*error CS0239: "Diretor.Apresentar()": não é possível substituir o membro herdado "Professor
 .Apresentar()" porque ele é sealed [C:\DIO\POO\CursoPOO\CursoPOO.csproj]
             dr.Apresentar();
             */
-            dr.Apresentar();
 
             /*
             //implementando abstract class

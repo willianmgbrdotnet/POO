@@ -9,3 +9,5 @@ Early binding Polimorfismo
 review classes
 Implementando classes abstratas
 Trying implement sealed method
+Interface
+usando a interface no codigo
